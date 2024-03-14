@@ -2,7 +2,7 @@
 # Trim the illumina adaptors from fastq files
 
 #SBATCH --job-name=trim_fq                                                                                                                                                                                                                                                                                                                                         
-SBATCH -n 5                                                                                                                                                                                                                                                                                                                                                                      
+#SBATCH -n 5                                                                                                                                                                                                                                                                                                                                                                      
 #SBATCH --time=00-07:00:00                                                                                                                                                                           
 #SBATCH --mem=256gb                                                                                                                                                                                   
 #SBATCH --partition=Intel                                                                                                                                                                              
